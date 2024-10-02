@@ -16,10 +16,10 @@ function App() {
     <>
       <Header />
       <Hero />
-      {/* <Workout />
-      <FeaturesSlider />
+      <Workout />
+      {/* <FeaturesSlider /> */}
       <Feedback />
-      <Reporting />
+      {/* <Reporting />
       <Platform />
       <Partners />
       <KnowMoreSlider />

@@ -19,9 +19,10 @@ const Hero = () => {
           </div>
         </form>
       </div>
-      <div className='h-[2px] bg-sky-blue mt-[127px]'></div>
-      <div className='h-6 bg-deep-blue'></div>
+      <div className='h-[2px] bg-sky-blue lg:mt-[127px] md:mt-[90px] sm:mt-[60px] mt-10'></div>
+      <div className='lg:h-6 md:h-4 sm:h-3 h-2 bg-deep-blue'></div>
       <div className='h-[1.78px] bg-border-gray'></div>
+      <div className='bg-ocean-blue md:pb-[150px] sm:pb-[100px] pb-[85px] lg:pb-[199px]'></div>
     </div>
   )
 }

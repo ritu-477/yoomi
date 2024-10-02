@@ -17,6 +17,7 @@ module.exports = {
         }
       },
       fontSize: {
+        'custom-3xl': "27px",
         'custom-4xl': "32px",
         'custom-6xl': "40px",
         'custom-7xl': "50px",
@@ -45,9 +46,10 @@ module.exports = {
         'custom-3xl': "0px 0px 18.03px 0px #0000000D",
         'custom-4xl': "0px 13px 18px 0px #0000000F",
         'custom-5xl': "-2px 8px 20px 18px #0000000F",
+
       },
       lineHeight: {
-        'custom-base': "16.94px", 
+        'custom-base': "16.94px",
         'custom-lg': "19.36px",
         'custom-xl': "21.78px",
         'custom-xxl': "26.4px",
@@ -64,11 +66,11 @@ module.exports = {
         'footer-bg': "url('./assets/images/webp/footer-bg.webp')",
         'star': "url('./assets/images/webp/start-img.webp')",
       },
-      fontFamily: {   
+      fontFamily: {
         'inter': "'inter', sans serif"
       }
     },
   },
   plugins: [],
-}
+};
 
