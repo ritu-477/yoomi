@@ -19,9 +19,9 @@ function App() {
       <Workout />
       {/* <FeaturesSlider /> */}
       <Feedback />
-      {/* <Reporting />
+      <Reporting />
       <Platform />
-      <Partners />
+      {/* <Partners />
       <KnowMoreSlider />
       <Newsletter /> */}
     </>
