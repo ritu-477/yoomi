@@ -11,7 +11,7 @@ const Hero = () => {
         <h1 className='relative font-normal text-center max-w-[819.84px] text-3xl mx-auto md:text-custom-6xl md:leading-custom-5xl lg:text-custom-8xl lg:leading-custom-7xl text-black'><span className='font-extrabold'>Next Generation</span> Patient <span className='block relative after:absolute after:contents-[] after:w-[40px] after:h-[40px] after:bg-star after:bg-cover after:top-[16px] after:right-[-8px]'>Engagement and RTM Solution</span></h1>
         <p className='font-inter text-2xl leading-custom-xxl text-center text-black opacity-70 pt-5'>Industry leading AI motion-tracking technology</p>
         <form method='get' id='email-form'>
-          <div className='bg-white max-w-[428.89px] p-[5.62px_4px_5.62px_11px] mx-auto shadow-custom-xl mt-[57px] flex justify-between items-center'>
+          <div className='bg-white max-w-[428.89px] rounded p-[5.62px_4px_5.62px_11px] mx-auto shadow-custom-xl mt-[57px] flex justify-between items-center'>
             <input type="email" placeholder='Enter Your Email' required className='w-full outline-none font-inter font-medium text-base placeholder:text-black opacity-70  leading-custom-lg' />
             <button className='text-white text-nowrap ms-2 font-inter font-semibold text-base leading-custom-lg px-4 bg-deep-blue py-[13px] rounded hover:scale-[0.9] ease-out duration-300'>
               Get Started
