@@ -9,7 +9,7 @@ const Newsletter = () => {
         <div className='max-w-[1145px] bg-deep-blue xl:p-[38px_103px_19px_82px] lg:p-[38px_60px_19px_60px] rounded-[32px] sm:py-6 sm:px-6 px-5 py-8 relative '>
           <div className='sm:flex md:justify-between flex-wrap'>
             <div className='max-w-[442px] flex flex-col justify-center'>
-              <img src={newlatterLogo} alt="newslatter-logo" className='lg:w-[228px] sm:w-[100px] w-[80px] h-[55px] pointer-events-none' />
+              <img src={newlatterLogo} alt="newslatter-logo" className='lg:w-[228px] sm:w-[100px] w-[80px] pointer-events-none' />
               <p
                 className='font-plusJakarta text-nowrap md:text-3xl text-xl md:leading-custom-3xl text-2 font-normal text-white sm:pt-7 pt-5'>
                 Sign Up to Join <span className='font-semibold'>Our Newsletter</span></p>

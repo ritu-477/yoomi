@@ -2,6 +2,7 @@
 import './App.css';
 import Footer from './common/Footer';
 import Header from './common/Header';
+import BackTop from './components/BackTop';
 import FeaturesSlider from './components/FeaturesSlider';
 import Feedback from './components/Feedback';
 import Hero from './components/Hero';
@@ -26,6 +27,7 @@ function App() {
       <KnowMoreSlider />
       <Newsletter />
       <Footer />
+      <BackTop />
     </>
   )
 };

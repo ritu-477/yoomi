@@ -5,6 +5,7 @@ import rightEllips from  '../assets/images/webp/hero-right-ellips.webp'
 const Hero = () => {
   return (
     <div className='xl:pt-[123px] lg:pt-[100px] md:pt-[80px] sm:pt-[60px] pt-12 bg-off-white relative'>
+    
       <div className='absolute left-0 top-[103px]'><img src={leftEllips} alt="left-ellips" className='xl:max-w-[258px] pointer-events-none xl:h-[208px] lg:max-w-[200px] lg:h-[180px] sm:max-w-[150px] sm:h-[100px] max-w-[70px] h-[50]' /></div>
       <div className='absolute right-0 top-[151px]'><img src={rightEllips} className='xl:max-w-[258px] xl:h-[208px] pointer-events-none lg:max-w-[200px] lg:h-[180px] sm:max-w-[150px] sm:h-[100px] max-w-[70px] h-[50]' alt="right-ellips"  /></div>
           <div className='container'>
