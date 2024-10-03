@@ -5,6 +5,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import Icon from '../common/Icon';
+import 'aos/dist/aos.css';
 import sliderWorkout from '../assets/images/webp/swiper-img.webp';
 import sliderChair from '../assets/images/webp/slider-chair-image.webp';
 
@@ -17,7 +18,7 @@ const FeaturesSlider = () => {
         <p className='font-inter sm:text-base text-sm sm:leading-custom-lg text-black opacity-70 text-center max-w-[724px] mx-auto'>Yoomi is more than just a regular remote monitoring solution. Our product supports patients and providers through every step of the rehabilitation process</p>
         <div className='rounded-[32px] bg-white shadow-custom-xxl lg:p-[57px_0_58px_71px] md:p-10 sm:p-8 p-6 lg:mt-[55px] md:mt-[40px] mt-4 sm:mt-6'>
           <div className='lg:flex-row flex justify-between flex-col gap-6 sm:gap-8 md:gap-10'>
-            <div className='lg:max-w-[468px] w-full flex flex-col justify-center lg:items-end xl:ms-0 lg:ms-[50px]'>
+            <div data-aos="zoom-in" className='lg:max-w-[468px] w-full flex flex-col justify-center lg:items-end xl:ms-0 lg:ms-[50px]'>
               <div className='lg:max-w-[468px] w-full'>
                 <p className='font-inter font-medium text-base leading-custom-lg text-deep-blue pb-2'>LIBRARY</p>
                 <h2 className='xl:text-custom-4xl xl:leading-custom-4xl sm:text-custom-3xl sm:leading-custom-3xl font-normal text-2xl lg:max-w-[468px]'>Extensive Exercise <span className='font-semibold'>Library</span></h2>

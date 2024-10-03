@@ -16,8 +16,8 @@ const Feedback = () => {
           <div className='lg:flex-row flex justify-between flex-col-reverse gap-6 sm:gap-8 md:gap-10'>
             <div className='lg:max-w-[552.64px] w-full flex justify-center lg:justify-start items-center relative'>
               <img src={feedbackImg} alt="feedback-image" className='max-w-[490px] w-full shadow-custom-xxl sm:mt-5 mt-2 lg:mt-0 pointer-events-none' />
-              <img src={womenImg} alt="women-image" className='lg:max-w-[217.7px] max-w-[200px] rounded shadow-custom-xxl sm:block hidden absolute pointer-events-none xl:top-[35px] top-[-5px] left-[2px] md:left-0 lg:top-[55px] lg:left-[-20px] xl:left-[-33.97px]' />
-              <img src={percentageImg} className='absolute lg:right-[-40px] sm:block hidden xl:right-0 xl:max-w-[120px] pointer-events-none lg:max-w-[110px] md:max-w-[80px] md:right-[47px] sm:top-[-16px] xl:top-[37px] lg:top-[62px] sm:max-w-[70px] sm:right-[30px]' alt="percentage-image" />
+              <img src={womenImg} alt="women-image" className='md:max-w-[217.7px] max-w-[200px] rounded shadow-custom-xxl sm:block hidden absolute pointer-events-none xl:top-[35px] top-[-5px] left-[2px] md:left-0 lg:top-[55px] lg:left-[-20px] xl:left-[-33.97px]' />
+              <img src={percentageImg} className='absolute lg:right-[-40px] sm:block hidden xl:right-0 xl:max-w-[120px] pointer-events-none md:max-w-[110px] md:right-[47px] sm:top-[-5px] xl:top-[37px] lg:top-[62px] sm:max-w-[80px] sm:right-[10px]' alt="percentage-image" />
             </div>
             <div className='lg:max-w-[468px] w-full flex flex-col lg:items-end xl:ms-0 lg:ms-[50px]'>
               <div className='lg:max-w-[468px] w-full'>
