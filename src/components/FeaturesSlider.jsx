@@ -10,12 +10,12 @@ import sliderChair from '../assets/images/webp/slider-chair-image.webp';
 
 const FeaturesSlider = () => {
   return (
-    <div className='xl:pt-[125.63px] lg:pt-20 md:pt-16 pt-12'>
+    <div className='xl:pt-[125.63px] lg:pt-20 md:pt-16 pt-12 pb-12 sm:pb-[53px]'>
       <div className='container'>
         <p className='font-inter text-base leading-custom-lg text-deep-blue font-medium pb-2 text-center'>FEATURES</p>
         <h2 className='xl:text-custom-6xl sm:text-3xl text-2xl xl:leading-custom-5xl font-normal pb-[10px] text-center'>Explore Our <span className='font-semibold'>Amazing Features</span></h2>
         <p className='font-inter text-base leading-custom-lg text-black opacity-70 text-center max-w-[724px] mx-auto'>Yoomi is more than just a regular remote monitoring solution. Our product supports patients and providers through every step of the rehabilitation process</p>
-        <div className='rounded-[32px] shadow-custom-xxl lg:p-[57px_28px_58px_71px] md:p-10 sm:p-8 p-6 lg:mt-[55px] md:mt-[40px] mt-4 sm:mt-6'>
+        <div className='rounded-[32px] bg-white shadow-custom-xxl lg:p-[57px_28px_58px_71px] md:p-10 sm:p-8 p-6 lg:mt-[55px] md:mt-[40px] mt-4 sm:mt-6'>
           <div className='lg:flex-row flex justify-between flex-col gap-6 sm:gap-8 md:gap-10'>
             <div className='max-w-[468px] w-full flex flex-col lg:items-end xl:ms-0 lg:ms-[50px]'>
               <div className='lg:max-w-[468px] w-full'>

@@ -3,16 +3,20 @@ import Icon from '../common/Icon'
 import feedbackImg from '../assets/images/webp/feedback-image.webp'
 import womenImg from '../assets/images/webp/women-image.webp'
 import percentageImg from '../assets/images/webp/percentage-circle.webp'
+import leftEllips from '../assets/images/webp/tracking-left-ellips.webp'
+import rightEllips from '../assets/images/webp/tracking-right-ellips.webp'
 
 const Feedback = () => {
   return (
-    <div className='lg:py-11 md:py-8 py-6'>
+    <div className='lg:py-11 md:py-8 py-6 relative' id='vision'>
+      <div className='absolute left-0 top-[-126px] -z-10'><img src={leftEllips} className='lg:max-w-[303px] md:max-w-[280px] max-w-[150px]' alt="tracking-ellips" /></div>
+      <div className='absolute right-0 bottom-[-160px] -z-10'><img src={rightEllips} className='lg:max-w-[303px] md:max-w-[280px] max-w-[150px]' alt="tracking-ellips" /></div>
       <div className='container'>
-        <div className='rounded-[32px] shadow-custom-xxl lg:p-[57px_28px_58px_71px] md:p-10 sm:p-8 p-6'>
+        <div className='rounded-[32px] shadow-custom-xxl lg:p-[57px_28px_58px_71px] md:p-10 sm:p-8 p-6 relative z-10 bg-white'>
           <div className='lg:flex-row flex justify-between flex-col-reverse gap-6 sm:gap-8 md:gap-10'>
             <div className='lg:max-w-[552.64px] w-full flex justify-center lg:justify-start items-center relative'>
               <img src={feedbackImg} alt="feedback-image" className='max-w-[490px] w-full mt-6 lg:mt-0 pointer-events-none' />
-              <img src={womenImg} alt="women-image" className='lg:max-w-[217.7px] max-w-[200px] sm:block hidden absolute pointer-events-none xl:top-[35px] top-[-5px] left-[2px] md:left-0 lg:top-[55px] lg:left-[-20px] xl:left-[-33.97px]' />
+              <img src={womenImg} alt="women-image" className='lg:max-w-[217.7px] max-w-[200px] rounded shadow-custom-xxl sm:block hidden absolute pointer-events-none xl:top-[35px] top-[-5px] left-[2px] md:left-0 lg:top-[55px] lg:left-[-20px] xl:left-[-33.97px]' />
               <img src={percentageImg} className='absolute lg:right-[-40px] sm:block hidden xl:right-0 xl:max-w-[120px] pointer-events-none lg:max-w-[110px] md:max-w-[80px] md:right-[47px] sm:top-[-16px] xl:top-[37px] lg:top-[62px] sm:max-w-[70px] sm:right-[30px]' alt="percentage-image" />
             </div>
             <div className='max-w-[468px] w-full flex flex-col lg:items-end xl:ms-0 lg:ms-[50px]'>

@@ -1,9 +1,11 @@
 import React from 'react'
 import cardFirst from '../assets/images/webp/card-image.webp'
+import platformEllips from '../assets/images/webp/platform-right-ellips.webp'
 
 const Platform = () => {
   return (
-    <div className='lg:py-[79px] md:py-14 sm:py-9 py-6 bg-light-gray lg:my-11 md:my-8 my-6'>
+    <div className='lg:py-[79px] md:py-14 sm:py-9 py-6 bg-light-gray lg:my-11 md:my-8 my-6 relative' id='team'>
+      <div className='absolute right-0 top-0'><img src={platformEllips} alt="paltform-ellips" className='sm:max-w-[100px] max-w-[50px]' /></div>
       <div className='container'>
         <p className='font-inter text-base leading-custom-lg text-deep-blue font-medium pb-2 text-center'>PLATFORM</p>
         <h2 className='xl:text-custom-6xl sm:text-3xl text-2xl xl:leading-custom-5xl font-normal pb-4 text-center'>Through <span className='font-semibold'>Our Platform</span></h2>

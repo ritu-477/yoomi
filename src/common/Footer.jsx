@@ -20,9 +20,9 @@ const Footer = () => {
               <div className='lg:w-[33.33%] px-3 sm:w-[33.33%] w-[50%]'>
                 <ul className='ms-0 ps-0'>
                   <li className='font-semibold text-sm leading-4 font-inter text-white lg:pb-[18px] py-4 lg:pt-0'>About Us</li>
-                  <li className='lg:pb-[18px] sm:pb-4 pb-3'><a className='font-inter font-normal leading-4 text-white text-sm text-nowrap hover:text-light-blue transition-all ease-linear' href="">Meet the Team</a></li>
-                  <li className='lg:pb-[18px] sm:pb-4 pb-3'><a className='font-inter font-normal leading-4 text-white text-sm text-nowrap hover:text-light-blue transition-all ease-linear' href="">Our Mission</a></li>
-                  <li><a className='font-inter font-normal leading-4 text-white text-sm text-nowrap hover:text-light-blue transition-all ease-linear' href="">Our Vision</a></li>
+                  <li className='lg:pb-[18px] sm:pb-4 pb-3'><a className='font-inter font-normal leading-4 text-white text-sm text-nowrap hover:text-light-blue transition-all ease-linear' href="#team">Meet the Team</a></li>
+                  <li className='lg:pb-[18px] sm:pb-4 pb-3'><a className='font-inter font-normal leading-4 text-white text-sm text-nowrap hover:text-light-blue transition-all ease-linear' href="#mission">Our Mission</a></li>
+                  <li><a className='font-inter font-normal leading-4 text-white text-sm text-nowrap hover:text-light-blue transition-all ease-linear' href="#vision">Our Vision</a></li>
                 </ul>
               </div>
               <div className='lg:w-[33.33%] px-3 sm:w-[33.33%] w-[50%] flex sm:justify-center justify-end'>
@@ -45,9 +45,9 @@ const Footer = () => {
         <div className='border-t border-medium-gray py-[22px] mt-10'>
           <div className='container'>
             <div className='flex sm:justify-end justify-center gap-6'>
-              <a href="/" className='font-inter font-normal text-sm hover:text-light-blue transition-all ease-linear leading-4 text-gray'>Terms of Service</a>
-              <a href="/" className='font-inter font-normal text-sm hover:text-light-blue transition-all ease-linear leading-4 text-gray'>Privacy Policy</a>
-              <a href="/" className='font-inter font-normal text-sm hover:text-light-blue transition-all ease-linear leading-4 text-gray'>Cookies</a>
+              <a href="/" className='font-inter font-normal text-nowrap text-sm hover:text-light-blue transition-all ease-linear leading-4 text-gray'>Terms of Service</a>
+              <a href="/" className='font-inter font-normal text-nowrap text-sm hover:text-light-blue transition-all ease-linear leading-4 text-gray'>Privacy Policy</a>
+              <a href="/" className='font-inter font-normal text-nowrap text-sm hover:text-light-blue transition-all ease-linear leading-4 text-gray'>Cookies</a>
             </div>
           </div>
         </div>

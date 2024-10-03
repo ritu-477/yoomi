@@ -3,6 +3,7 @@
  
 * {
   transition: 300ms linear all !important;
+  scroll-behavior: smooth !important;
 }
 body{
   font-family: 'plus jakarta sans', sans-serif;

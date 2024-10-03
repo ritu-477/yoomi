@@ -7,7 +7,7 @@ import foundedImg from '../assets/images/webp/founded-image.webp'
 
 const Partners = () => {
   return (
-    <div className='lg:py-[43px] md:py-8 py-6'>
+    <div className='lg:py-[43px] md:py-8 py-6' id='news'>
       <div className='container'>
         <p className='font-inter text-base leading-custom-lg text-deep-blue font-medium pb-2 text-center'>PARTNERS</p>
         <h2 className='xl:text-custom-6xl sm:text-3xl text-2xl xl:leading-custom-5xl font-normal text-center max-w-[684px] mx-auto'>Recognized by Leading <span className='font-semibold'>Healthcare Institutions</span></h2>
