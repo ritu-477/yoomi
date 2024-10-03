@@ -5,7 +5,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import Icon from '../common/Icon';
-import sliderWorkout from '../assets/images/webp/slider-workout.webp';
+import sliderWorkout from '../assets/images/webp/swiper-img.webp';
 import sliderChair from '../assets/images/webp/slider-chair-image.webp';
 
 const FeaturesSlider = () => {
@@ -69,7 +69,7 @@ const FeaturesSlider = () => {
                   <SwiperSlide key={idx}>
                     <div
                       data-aos='zoom-in'
-                      className="overflow-hidden group rounded xl:max-h-[331px] lg:max-h-[273px] relative max-h-[181px] sm:max-h-[323px] max-w-[460px] w-full"
+                      className="overflow-hidden group rounded xl:max-h-[315px] lg:max-h-[234px] relative max-h-[170px] sm:max-h-[303px] max-w-[460px] w-full"
                     >
                       <img
                         src={idx === 0 || idx === 2 ? sliderWorkout : sliderChair}

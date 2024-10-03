@@ -9,9 +9,9 @@ const Hero = () => {
     <div className='xl:pt-[123px] lg:pt-[100px] md:pt-[80px] sm:pt-[60px] pt-12 bg-off-white relative' id='about'>
       <div className='absolute left-0 top-[103px]'><img src={leftEllips} alt="left-ellips" className='xl:max-w-[258px] pointer-events-none xl:h-[208px] lg:max-w-[200px] lg:h-[180px] sm:max-w-[150px] sm:h-[100px] max-w-[70px] h-[50]' /></div>
       <div className='absolute right-0 top-[151px]'><img src={rightEllips} className='xl:max-w-[258px] xl:h-[208px] pointer-events-none lg:max-w-[200px] lg:h-[180px] sm:max-w-[150px] sm:h-[100px] max-w-[70px] h-[50]' alt="right-ellips"  /></div>
-          <div className='container'>
-        <h1 className='relative font-normal text-center max-w-[819.84px] text-3xl mx-auto md:text-custom-6xl md:leading-custom-5xl lg:text-custom-8xl lg:leading-custom-7xl text-black'><span className='font-extrabold'>Next Generation</span> Patient <span className='block relative after:absolute after:contents-[] after:w-[40px] after:h-[40px] after:bg-star after:bg-cover after:top-[16px] after:right-[-8px]'>Engagement and RTM Solution</span></h1>
-        <p className='font-inter text-2xl leading-custom-xxl text-center text-black opacity-70 pt-5'>Industry Leading AI Motion-Tracking Technology</p>
+      <div className='container'>
+        <h1 className='font-normal xl:text-custom-8xl lg:text-5xl sm:text-4xl text-[27px] xl:leading-custom-7xl leading-[35px] text-black text-center mx-auto pb-5'><span className='font-extrabold'>Next Generation</span><span> Patient <span className='block'>Engagement and RTM <span className='relative after:absolute after:contents-[""] sm:after:-right-12 sm:after:top-4 lg:after:-top-4 after:bg-star sm:after:w-12 after:w-6 sm:after:h-12 after:h-6 after:bg-cover after:mt-2 sm:after:-mt-4 xl:after:mt-6 lg:after:mt-7'>Solution</span></span></span></h1>
+        <p className='font-inter lg:text-2xl text-sm lg:leading-custom-xxl text-center text-black opacity-70 pt-5'>Industry Leading AI Motion-Tracking Technology</p>
         <form method='get' id='email-form' className='relative z-10'>
           <div className='bg-white max-w-[428.89px] rounded p-[5.62px_4px_5.62px_11px] mx-auto shadow-custom-xl sm:mt-8 mt-6 md:mt-12 lg:mt-[57px] flex justify-between items-center'>
             <input type="email" placeholder='Enter Your Email' required className='w-full outline-none font-inter font-medium text-base placeholder:text-black opacity-70  leading-custom-lg' />
