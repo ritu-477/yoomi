@@ -11,9 +11,9 @@ const Feedback = () => {
         <div className='rounded-[32px] shadow-custom-xxl lg:p-[57px_28px_58px_71px] md:p-10 sm:p-8 p-6'>
           <div className='lg:flex-row flex justify-between flex-col-reverse gap-6 sm:gap-8 md:gap-10'>
             <div className='lg:max-w-[552.64px] w-full flex justify-center lg:justify-start items-center relative'>
-              <img src={feedbackImg} alt="feedback-image" className='max-w-[490px] w-full mt-6 lg:mt-0' />
-              <img src={womenImg} alt="women-image" className='lg:max-w-[217.7px] max-w-[200px] sm:block hidden absolute xl:top-[35px] top-[-5px] left-[2px] md:left-0 lg:top-[55px] lg:left-[-20px] xl:left-[-33.97px]' />
-              <img src={percentageImg} className='absolute lg:right-[-40px] sm:block hidden xl:right-0 xl:max-w-[120px] lg:max-w-[110px] md:max-w-[80px] md:right-[47px] sm:top-[-16px] xl:top-[37px] lg:top-[62px] sm:max-w-[70px] sm:right-[30px]' alt="percentage-image" />
+              <img src={feedbackImg} alt="feedback-image" className='max-w-[490px] w-full mt-6 lg:mt-0 pointer-events-none' />
+              <img src={womenImg} alt="women-image" className='lg:max-w-[217.7px] max-w-[200px] sm:block hidden absolute pointer-events-none xl:top-[35px] top-[-5px] left-[2px] md:left-0 lg:top-[55px] lg:left-[-20px] xl:left-[-33.97px]' />
+              <img src={percentageImg} className='absolute lg:right-[-40px] sm:block hidden xl:right-0 xl:max-w-[120px] pointer-events-none lg:max-w-[110px] md:max-w-[80px] md:right-[47px] sm:top-[-16px] xl:top-[37px] lg:top-[62px] sm:max-w-[70px] sm:right-[30px]' alt="percentage-image" />
             </div>
             <div className='max-w-[468px] w-full flex flex-col lg:items-end xl:ms-0 lg:ms-[50px]'>
               <div className='lg:max-w-[468px] w-full'>
@@ -35,7 +35,7 @@ const Feedback = () => {
                   <Icon iconName="click" />
                   <p className='font-inter font-normal text-base text-black opacity-70 lg:max-w-[400.44px]'>Requires no custom hardware, sensors, or equipment</p>
                 </div>
-                <button className='font-inter font-semibold text-base leading-custom-lg py-4 sm:mt-10 mt-6  text-white px-8 bg-deep-blue hover:scale-[0.9] ease-out duration-300'>Test it Yourself</button> 
+                <button className='font-inter font-semibold text-base leading-custom-lg py-4 sm:mt-10 mt-6 text-white rounded px-8 bg-deep-blue hover:scale-[0.9] ease-out duration-300'>Test it Yourself</button> 
               </div>
             
             </div>

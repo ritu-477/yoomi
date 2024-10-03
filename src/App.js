@@ -1,5 +1,6 @@
 
 import './App.css';
+import Footer from './common/Footer';
 import Header from './common/Header';
 import FeaturesSlider from './components/FeaturesSlider';
 import Feedback from './components/Feedback';
@@ -17,13 +18,14 @@ function App() {
       <Header />
       <Hero />
       <Workout />
-      {/* <FeaturesSlider /> */}
+      <FeaturesSlider />
       <Feedback />
       <Reporting />
       <Platform />
-      {/* <Partners />
+      <Partners />
       <KnowMoreSlider />
-      <Newsletter /> */}
+      <Newsletter />
+      <Footer />
     </>
   )
 };

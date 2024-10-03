@@ -32,7 +32,7 @@ const Header = () => {
 
 
     return (
-        <div className="flex w-full mx-auto items-center bg-white py-[25.5px] relative z-20">
+        <div className="flex w-full mx-auto items-center py-[25.5px] relative z-20 bg-off-white">
             <div className='container'>
                 <div className='flex justify-between items-center'>
                     <a href=""><img src={navLogo} alt="nav-logo" className='md:max-w-[118px] md:h-[30px] max-w-[80px]' /></a>

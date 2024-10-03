@@ -12,17 +12,17 @@ const Platform = () => {
           <div className='p-5 w-full h-[207px] max-w-[268px] flex justify-center items-center flex-col relative bg-green'>
             <p className='font-inter lg:text-6xl lg:leading-custom-8xl text-4xl text-white font-semibold'>50%</p>
             <p className='text-xl leading-custom-2xl font-normal font-inter text-white max-w-[148px] text-center'>Reduction in Pain</p>
-            <img src={cardFirst} alt="card-image" className='absolute max-w-[123.63px] right-0 bottom-0' />
+            <img src={cardFirst} alt="card-image" className='absolute max-w-[123.63px] right-0 bottom-0 pointer-events-none' />
           </div>
           <div className='p-5 w-full h-[207px] max-w-[268px] flex justify-center items-center flex-col relative bg-light-blue'>
             <p className='font-inter lg:text-6xl lg:leading-custom-8xl text-4xl text-white font-semibold'>90%</p>
             <p className='text-xl leading-custom-2xl font-normal font-inter text-white max-w-[184.96px] text-center'>Increase In-Patient Satisfaction</p>
-            <img src={cardFirst} alt="card-image" className='absolute max-w-[123.63px] right-0 bottom-0' />
+            <img src={cardFirst} alt="card-image" className='absolute max-w-[123.63px] right-0 bottom-0 pointer-events-none' />
           </div>
           <div className='p-5 w-full h-[207px] max-w-[268px] flex justify-center items-center flex-col relative bg-deep-blue'>
             <p className='font-inter lg:text-6xl lg:leading-custom-8xl text-4xl text-white font-semibold'>60%</p>
             <p className='text-xl leading-custom-2xl font-normal font-inter text-white text-center pb-5'>Faster Recovery</p>
-            <img src={cardFirst} alt="card-image" className='absolute max-w-[123.63px] right-0 bottom-0' />
+            <img src={cardFirst} alt="card-image" className='absolute max-w-[123.63px] right-0 bottom-0 pointer-events-none' />
           </div>
         </div>
       </div>

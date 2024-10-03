@@ -63,7 +63,7 @@ module.exports = {
       },
       backgroundImage: {
         'platform-card1': "url('./assets/images/webp/platform-card1.webp')",
-        'footer-bg': "url('./assets/images/webp/footer-bg.webp')",
+        'footer-bg': "url('./assets/images/webp/footer-image.webp')",
         'star': "url('./assets/images/webp/start-img.webp')",
       },
       fontFamily: {
