@@ -15,7 +15,6 @@ const KnowMoreSlider = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   useEffect(() => {
     AOS.init({ duration: 1000 });
-    AOS.refresh();
   }, []);
 
   return (
