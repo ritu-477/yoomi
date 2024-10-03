@@ -30,7 +30,7 @@ const KnowMoreSlider = () => {
                 <div className="max-w-[946px] rounded-2xl w-full overflow-hidden">
                   <img
                     src={idx === 0 ? sliderMen : idx === 1 ? sliderDocter : idx === 2 ? sliderWomen : sliderDocter}
-                    className='w-full max-h-[156px] sm:max-h-[296px] md:max-h-[360px] lg:max-h-[473px] h-full'
+                    className='w-full max-h-[210px] sm:max-h-[296px] md:max-h-[360px] lg:max-h-[473px] h-full'
                     alt='sports'
                     width={1892}
                     height={946}

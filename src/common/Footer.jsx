@@ -4,7 +4,7 @@ import Icon from '../common/Icon';
 
 const Footer = () => {
   return (
-    <div className='bg-footer-bg bg-cover bg-center bg-no-repeat mt-24 pt-[213px]'>
+    <div className='bg-footer-bg bg-cover bg-center bg-no-repeat mt-24 xl:pt-[213px] pt-[150px]'>
       <div className='container'>
         <div className='flex-row flex flex-wrap -mx-3 justify-between'>
           <div className='lg:w-[25%] px-3 w-ful'>

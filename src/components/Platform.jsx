@@ -12,19 +12,19 @@ const Platform = () => {
         <p className='font-inter text-base leading-custom-lg text-black opacity-70 text-center'>We’ve helped out partners and patients achieve</p>
         <div className='flex flex-wrap gap-[29px] md:pt-10 pt-8 lg:pt-[59px] mx-auto justify-center'>
           <div className='p-5 w-full h-[207px] max-w-[268px] flex justify-center items-center flex-col relative bg-green'>
-            <p className='font-inter lg:text-6xl lg:leading-custom-8xl text-4xl text-white font-semibold'>50%</p>
+            <p className='font-inter md:text-6xl md:leading-custom-8xl sm:text-5xl text-4xl text-white font-semibold'>50%</p>
             <p className='text-xl leading-custom-2xl font-normal font-inter text-white max-w-[148px] text-center'>Reduction in Pain</p>
-            <img src={cardFirst} alt="card-image" className='absolute max-w-[123.63px] right-0 bottom-0 pointer-events-none' />
+            <img src={cardFirst} alt="card-image" className='absolute max-w-[90px] right-0 bottom-0 pointer-events-none' />
           </div>
           <div className='p-5 w-full h-[207px] max-w-[268px] flex justify-center items-center flex-col relative bg-light-blue'>
-            <p className='font-inter lg:text-6xl lg:leading-custom-8xl text-4xl text-white font-semibold'>90%</p>
+            <p className='font-inter md:text-6xl md:leading-custom-8xl sm:text-5xl text-4xl text-white font-semibold'>90%</p>
             <p className='text-xl leading-custom-2xl font-normal font-inter text-white max-w-[184.96px] text-center'>Increase In-Patient Satisfaction</p>
-            <img src={cardFirst} alt="card-image" className='absolute max-w-[123.63px] right-0 bottom-0 pointer-events-none' />
+            <img src={cardFirst} alt="card-image" className='absolute max-w-[90px] right-0 bottom-0 pointer-events-none' />
           </div>
           <div className='p-5 w-full h-[207px] max-w-[268px] flex justify-center items-center flex-col relative bg-deep-blue'>
-            <p className='font-inter lg:text-6xl lg:leading-custom-8xl text-4xl text-white font-semibold'>60%</p>
+            <p className='font-inter md:text-6xl md:leading-custom-8xl sm:text-5xl text-4xl text-white font-semibold'>60%</p>
             <p className='text-xl leading-custom-2xl font-normal font-inter text-white text-center pb-5'>Faster Recovery</p>
-            <img src={cardFirst} alt="card-image" className='absolute max-w-[123.63px] right-0 bottom-0 pointer-events-none' />
+            <img src={cardFirst} alt="card-image" className='absolute max-w-[90px] right-0 bottom-0 pointer-events-none' />
           </div>
         </div>
       </div>
