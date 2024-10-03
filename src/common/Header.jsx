@@ -32,13 +32,13 @@ const Header = () => {
 
 
     return (
-        <div className="flex w-full mx-auto items-center py-[25.5px] relative z-20 bg-off-white">
+        <div className="flex w-full mx-auto items-center py-5 sm:py-[25.5px] relative z-20 bg-off-white">
             <div className='container'>
                 <div className='flex justify-between items-center'>
                     <a href=""><img src={navLogo} alt="nav-logo" className='md:max-w-[118px] md:h-[30px] max-w-[80px]' /></a>
                     <div
                         onClick={toggleMenu}
-                        className='menuIcon relative max-sm:w-[24px] max-sm:h-[20px] max-lg:w-[38px] max-lg:h-[28px] z-[15] max-lg:flex max-lg:justify-between max-lg:flex-col max-lg:cursor-pointer transition ease-linear duration-300 lg:hidden'
+                        className='menuIcon relative max-sm:w-6 max-sm:h-[18px] max-md:w-8 max-md:h-6 max-lg:w-[38px] max-lg:h-[28px] z-[15] max-lg:flex max-lg:justify-between max-lg:flex-col max-lg:cursor-pointer transition ease-linear duration-300 lg:hidden'
                     >
                         {isMenuOpen ? (
                             <>

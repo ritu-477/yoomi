@@ -42,11 +42,6 @@ body{
   width: 10px;
 }
 
-::-webkit-scrollbar-thumb,
-::-webkit-scrollbar-button {
-  background-color: #076787;
-}
-
 @media (min-width:576px) {
   .mySwiper {
     padding: 30px !important;

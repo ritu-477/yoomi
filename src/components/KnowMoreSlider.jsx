@@ -32,9 +32,6 @@ const KnowMoreSlider = () => {
                     src={idx === 0 ? sliderMen : idx === 1 ? sliderDocter : idx === 2 ? sliderWomen : sliderDocter}
                     className='w-full max-h-[210px] sm:max-h-[296px] md:max-h-[360px] lg:max-h-[473px] h-full'
                     alt='sports'
-                    width={1892}
-                    height={946}
-                    priority
                   />
                 </div>
               </SwiperSlide>
@@ -69,11 +66,11 @@ const KnowMoreSlider = () => {
                   <div className="sm:max-w-[152px] rounded w-full overflow-hidden hover:scale-110 transition_slow cursor-pointer">
                     <img
                       src={idx === 0 ? sliderMen : idx === 1 ? sliderDocter : idx === 2 ? sliderWomen : sliderDocter}
-                    className='w-[107px] sm:w-full min-h-[70px] max-h-[70px] sm:min-h-[100px] sm:max-h-[100px] lg:max-h-fit lg:min-h-[114px] h-full'
+                    className='w-[107px] max-w-[946px] sm:w-full min-h-[70px] max-h-[70px] sm:min-h-[100px] sm:max-h-[100px] lg:max-h-fit lg:min-h-[114px] h-full'
                     alt='sports'
-                    width={1892}
-                    height={946}
-                    priority
+                    // width={1892}
+                    // height={946}
+                    // priority
                     />
                   </div>
                 </SwiperSlide>
