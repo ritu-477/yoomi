@@ -42,13 +42,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='border-t border-medium-gray py-[22px] mt-10'>
-          <div className='container'>
-            <div className='flex sm:justify-end justify-center gap-6'>
-              <a href="/" className='font-inter font-normal text-nowrap text-sm hover:text-light-blue transition-all ease-linear leading-4 text-gray'>Terms of Service</a>
-              <a href="/" className='font-inter font-normal text-nowrap text-sm hover:text-light-blue transition-all ease-linear leading-4 text-gray'>Privacy Policy</a>
-              <a href="/" className='font-inter font-normal text-nowrap text-sm hover:text-light-blue transition-all ease-linear leading-4 text-gray'>Cookies</a>
-            </div>
+      </div>
+      <div className='border-t border-medium-gray py-[22px] mt-10'>
+        <div className='container'>
+          <div className='flex sm:justify-end justify-center gap-6'>
+            <a href="/" className='font-inter font-normal text-nowrap text-sm hover:text-light-blue transition-all ease-linear leading-4 text-gray'>Terms of Service</a>
+            <a href="/" className='font-inter font-normal text-nowrap text-sm hover:text-light-blue transition-all ease-linear leading-4 text-gray'>Privacy Policy</a>
+            <a href="/" className='font-inter font-normal text-nowrap text-sm hover:text-light-blue transition-all ease-linear leading-4 text-gray'>Cookies</a>
           </div>
         </div>
       </div>
