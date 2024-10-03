@@ -6,7 +6,7 @@ const Platform = () => {
     <div className='lg:py-[79px] md:py-14 sm:py-9 py-6 bg-light-gray lg:my-11 md:my-8 my-6'>
       <div className='container'>
         <p className='font-inter text-base leading-custom-lg text-deep-blue font-medium pb-2 text-center'>PLATFORM</p>
-        <h2 className='xl:text-custom-4xl xl:leading-custom-4xl sm:text-custom-3xl sm:leading-custom-3xl font-normal text-2xl pb-4 text-center'>Through <span className='font-semibold'>Our Platform</span></h2>
+        <h2 className='xl:text-custom-6xl sm:text-3xl text-2xl xl:leading-custom-5xl font-normal pb-4 text-center'>Through <span className='font-semibold'>Our Platform</span></h2>
         <p className='font-inter text-base leading-custom-lg text-black opacity-70 text-center'>We’ve helped out partners and patients achieve</p>
         <div className='flex flex-wrap gap-[29px] md:pt-10 pt-8 lg:pt-[59px] mx-auto justify-center'>
           <div className='p-5 w-full h-[207px] max-w-[268px] flex justify-center items-center flex-col relative bg-green'>

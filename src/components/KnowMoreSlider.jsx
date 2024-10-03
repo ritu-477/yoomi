@@ -13,9 +13,10 @@ const KnowMoreSlider = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
-    <div className="py-3.5">
+    <div className="md:pt-12 pt-6 xl:pb-[92px] md:pb-[60px] pb-10">
       <div className="container">
-        <p data-aos='zoom-in' className="mx-auto w-fit text-deep-blue font-inter uppercase font-medium text-sm sm:text-base">Know More</p>
+        <p data-aos='zoom-in' className="mx-auto w-fit text-deep-blue font-inter uppercase font-medium text-sm sm:text-base pb-3 sm:pb-4">Know More</p>
+        <h2 className='xl:text-custom-6xl sm:text-3xl text-2xl xl:leading-custom-5xl max-w-[615px] mx-auto font-normal lg:pb-14 sm:pb-7 pb-6 text-center'>And Used by the Biggest <span className='font-semibold'>Figures in Sports and Rehab</span></h2>
         <div data-aos='zoom-in' className='max-w-[946px] w-full mx-auto'>
           <Swiper
             loop={true}
