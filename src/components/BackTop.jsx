@@ -26,10 +26,10 @@ export const BackTop = () => {
     return (
         <div className='relative'>
             <a href='#'
-                className='border border-white bg-deep-blue p-4 absolute bottom-4 right-4 w-[40px] h-[40px] rounded-[50%] flex justify-center items-center '
+                className='border border-white bg-deep-blue p-4 absolute bottom-4 right-4 sm:w-[40px] sm:h-[40px] w-[30px] h-[30px] rounded-[50%] flex justify-center items-center '
                 onClick={scrollToTop}
             >
-                <Icon iconName="arrow" />
+                <Icon className="!sm:w-[26px] !sm:h-[26px] !w-[20px] !h-[20p]" iconName="arrow" />
             </a>
         </div>
     );
