@@ -6,7 +6,7 @@ import rightFlower from '../assets/images/webp/heroright-tree.webp'
 
 const Hero = () => {
   return (
-    <div className='lg:pt-[100px] md:pt-[80px] sm:pt-[60px] pt-8 bg-off-white relative' id='about'>
+    <div className='lg:pt-[110px] md:pt-[80px] sm:pt-[60px] pt-8 bg-off-white relative' id='about'>
       <div className='absolute left-0 top-[90px] sm:top-[103px]'><img src={leftEllips} alt="left-ellips" className='xl:max-w-[258px] pointer-events-none xl:h-[208px] lg:max-w-[200px] lg:h-[180px] sm:max-w-[80px] md:max-w-[120px] md:h-[110px] sm:h-[80px] max-w-[40px]' /></div>
       <div className='absolute right-0 top-[120px] sm:top-[151px]'><img src={rightEllips} className='xl:max-w-[258px] xl:h-[208px] pointer-events-none lg:max-w-[200px] lg:h-[180px] sm:max-w-[80px] md:max-w-[120px] md:h-[110px] sm:h-[80px] max-w-[40px]' alt="right-ellips"  /></div>
       <div className='container'>
